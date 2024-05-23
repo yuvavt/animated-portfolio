@@ -16,7 +16,7 @@ const Parallax = () => {
             <motion.div style={{ y: yText }} className="about-me">
                 <motion.h1>About Me</motion.h1>
                 <motion.p>
-                Im a passionate designer and developer, specializing in UI/UX, front-end, and full-stack projects, with a flair for integrating cloud services and machine learning. Creativity is my playground – from whimsical web designs to bespoke product creations. In my free time, I indulge in crafting personalized gestures and lose track of time with puppies and babies. A badminton enthusiast and meticulous planner, I balance my life between tech innovation and personal joys.
+                A passionate software developer with a proven track record of delivering high-performing distributed software solutions that propel competitive cloud systems forward. Leveraging 2+ years of IT experience and a master’s degree in computer science, I bring a unique blend of technical expertise, strategic vision, strong coding skills, and empathy to tackle complex challenges and build scalable systems that solve real-world problems. With a growth mindset and unwavering commitment for innovation, I am passionate about continuously learning and mastering new technologies. In my free time, I indulge in crafting personalized gestures and lose track of time with puppies and babies. A badminton enthusiast and meticulous planner, I balance my life between tech innovation and personal joys.
                 </motion.p>
             </motion.div>
             <motion.div className="mountains"></motion.div>

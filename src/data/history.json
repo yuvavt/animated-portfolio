@@ -19,11 +19,11 @@
     "imageSrc": "history/tcs.png"
   },
   {
-      "role": "Systems Engineer",
+      "role": "Software Developer",
       "organisation": "Tata Consultancy Services",
-      "startDate": "July 2021",
+      "startDate": "Jan 2021",
       "endDate": "Nov 2021",
-      "experiences": ["Deployed Infrastructure using Terraform", "Worked on Azure AD"],
+      "experiences": ["Enhanced the responsiveness of internal website", "Effectively managed Agile software workflow"],
       "imageSrc": "history/tcs.png"
     }
     
