@@ -26,13 +26,12 @@
         gap: 20px;
 
         @include mobile {
-            display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         @include tablet {
             margin-top: 10%;
-            display: flex;
             flex-direction: column;
             align-items: center;
         }
@@ -46,18 +45,17 @@
             @include mobile {
                 width: 80%;
             }
+
             @include tablet {
                 width: 80%;
                 margin-bottom: 10%;
             }
-
 
             .skill {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 gap: 11px;
-
 
                 p {
                     font-size: 25px;
@@ -66,7 +64,6 @@
                     @include mobile {
                         font-size: 12px;
                     }
-
                 }
 
                 .skillImageContainer {
@@ -91,34 +88,67 @@
                     @include mobile {
                         width: 60px;
                         height: 60px;
-
                     }
                 }
-
             }
         }
 
         .history {
-            .company{
+            width: 50%;
 
-                @include mobile{
+            @include mobile {
+                width: 80%;
+            }
+
+            .company {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 20px;
+
+                @include mobile {
+                    justify-content: center;
+                }
+
+                .company-logo-container {
+                    background-color: #fff;
+                    border-radius: 100%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    margin-bottom:2px;
+                    width: 60px;
+                    height: 60px;
+
+                    @include mobile {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+
+                        @include mobile {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
                 }
-                img{
-                    @include mobile{
-                        width:40px;
-                        height:40px;
+
+                .company-name {
+                    font-size: 24px;
+                    font-weight: bold;
+
+                    @include mobile {
+                        font-size: 16px;
                     }
                 }
             }
+
             .timeline {
                 position: relative;
                 margin-left: 20px;
                 padding-left: 50px;
-                
 
                 &:before {
                     content: '';
@@ -133,29 +163,44 @@
                 .timelineItem {
                     position: relative;
                     margin-bottom: 40px;
-                    @include mobile{
+
+                    @include mobile {
                         margin-bottom: 25px;
                     }
 
-                    .timePeriod {
-                        font-size: small;
-                        position: absolute;
-                        left: -30px;
-                        top: 0;
-                        left: -200px;
-                        background: #fff;
-                        color: rebeccapurple;
-                        padding: 5px 10px;
-                        border-radius: 10px;
-                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-                        @include mobile{
-                            display: none;
+                    .timelineContent {
+                        h3 {
+                            margin: 0;
+                            font-size: 20px;
+                            font-weight: bold;
+
+                            @include mobile {
+                                font-size: 14px;
+                            }
+
+                            .timePeriod {
+                                font-size: small;
+                                background: #fff;
+                                color: rebeccapurple;
+                                padding: 5px 10px;
+                                border-radius: 10px;
+                                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                                margin-left: 10px;
+
+                                @include mobile {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        ul {
+                            list-style: disc;
+                            margin: 0;
+                            padding-left: 20px;
                         }
                     }
                 }
             }
         }
-
-
     }
 }

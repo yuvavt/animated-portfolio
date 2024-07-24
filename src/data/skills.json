@@ -54,5 +54,9 @@
     {
       "title": "Terraform",
       "imageSrc": "skills/terraform.png"
+    },
+    {
+      "title": "AWS",
+      "imageSrc": "skills/aws.png"
     }
   ]
